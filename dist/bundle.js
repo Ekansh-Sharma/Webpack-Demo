@@ -70,7 +70,6 @@
 var message = __webpack_require__(1);
 alert(message);
 
-
 //node_modules/.bin/webpack script-1.js ./bundle.js
 
 //node_modules/.bin/webpack
@@ -79,7 +78,9 @@ alert(message);
 /* 1 */
 /***/ (function(module, exports) {
 
-var message = "Ekansh Sharma";
+//npm install babel-core babel-loader babel-preset-es2016 --save-dev
+
+const message = "Ekansh Sharma";
 
 module.exports = message;
 
