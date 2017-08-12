@@ -1,3 +1,4 @@
+require('./css/intro-component.css');
 var message = require("./script-2");
 alert(message);
 
